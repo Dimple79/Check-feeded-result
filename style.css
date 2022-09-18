@@ -1,0 +1,80 @@
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0)),url("66.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+h2{
+    font-size: 4rem;
+    font-weight: 100;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+}
+#inputs {
+    width: 50rem;
+    height: 34rem;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    position: relative;
+    margin: 0% 2%;
+    border-radius: 1rem;
+    font-weight: bolder;
+    background-color: rgb(161, 156, 157);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+input {
+    font-weight: bolder;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 7px white;
+    border-radius: 9px;
+}
+p {
+    margin: 0;
+    color: black;
+    font-size: 1.1rem;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+@media (max-width: 570px) {
+    #inputs {
+        width: 80%;
+        height: 90%;
+        
+    }
+    h2{
+        font-size: 2rem;
+        font-weight: 100;
+    }
+}
+@media (max-width: 770px) {
+    #inputs {
+        width: 80%;
+        height: 90%;
+        
+    }
+    h2{
+        font-size: 2rem;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 1270px) {
+    #inputs {
+        width: 80%;
+        height: 90%;
+        
+    }
+    h2{
+        font-size: 2rem;
+        font-weight: 100;
+    }
+}
+
